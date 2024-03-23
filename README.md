@@ -13,27 +13,6 @@ This Python script performs sentiment analysis on a WhatsApp chat conversation e
 ## Installation
 1. Install Python 3 from [python.org](https://www.python.org/downloads/).
 2. Install required packages using pip:
-
-
-Sure, here's a basic README file for your code:
-
-markdown
-Copy code
-# WhatsApp Chat Sentiment Analysis
-
-This Python script performs sentiment analysis on a WhatsApp chat conversation exported as a text file. It extracts messages along with their date, time, and author, and then calculates the sentiment score (positive, negative, and neutral) for each message using the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool.
-
-## Requirements
-- Python 3
-- pandas
-- nltk (Natural Language Toolkit)
-- wordcloud
-- matplotlib
-- emoji
-
-## Installation
-1. Install Python 3 from [python.org](https://www.python.org/downloads/).
-2. Install required packages using pip:
 pip install pandas nltk wordcloud matplotlib emoji
 
 arduino
