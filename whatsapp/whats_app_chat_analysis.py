@@ -2,6 +2,7 @@ import re
 import pandas as pd
 import numpy as np
 import emoji
+import regex
 from collections import Counter
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -96,12 +97,10 @@ def score(a, b, c):
 
 score(x, y, z)
 
-###########################################################
+###########################################################(to find unique)
 df.Contact.unique()
 
 ###########################################################
-
-import regex
 
 # Regular expression pattern to match emojis
 emoji_pattern = regex.compile(r'\p{So}')
