@@ -98,9 +98,10 @@ def score(a, b, c):
 score(x, y, z)
 
 ###########################################################(to find unique)
+
 df.Contact.unique()
 
-###########################################################
+###########################################################(to find emoji)
 
 # Regular expression pattern to match emojis
 emoji_pattern = regex.compile(r'\p{So}')
@@ -121,7 +122,7 @@ print(df.head(50))
 # Print the total count of emojis
 print("Total number of emojis:", total_emojis)
 
-###########################################################
+###########################################################(to print total no. of words in conversation)
 text = " ".join(review for review in df.Message)
 print ("There are {} words in all the messages.".format(len(text)))
 stopwords = set(STOPWORDS)
